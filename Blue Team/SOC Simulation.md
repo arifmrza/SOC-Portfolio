@@ -8,13 +8,13 @@
 2.Analyse and decide which incident is actually happening e.g Phishing, Firewall and so on
 3.Use the playbook or response strategy to plan the next move.
 
-## Phishing
+### Phishing
 1.Analyse email artifacts to see some weird settings. e.g m1crosoft.support instead of microsoft.support
 2.Check sender reputation if they are already been blocked from previous detection and check attachment given if there are any.
 3.Investigate related alerts if there are any
 4.Escalate it if needed
 
-## Firewall
+### Firewall
 1.Review network connection details, here I am using Splunk to see another log from another alert if theres any.
 2.Assess reputation of domain or IP, if theyre already being blacklisted by our system
 3.Correlate with internal activity, if it make sense of why this connection is happening.
